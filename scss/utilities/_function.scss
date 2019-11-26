@@ -1,0 +1,5 @@
+// Functions
+
+@function basis($col-number) {
+    @return (100% / 12) * $col-number;
+}
